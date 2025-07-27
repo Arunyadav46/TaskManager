@@ -5,8 +5,6 @@ import CompleteTask from './CompleteTask'
 import FailedTask from './FailedTask'
 
 
-
-
 function Tasklist({data}) {
      console.log(data)
   return (
@@ -26,7 +24,7 @@ function Tasklist({data}) {
      }
    })}
    
-    {/* <NewTask/>
+    {/*<NewTask/>
     <CompleteTask/>
     <FailedTask/> */}
     </div>
